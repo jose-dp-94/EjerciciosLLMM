@@ -25,3 +25,4 @@ Ejercicio 20 | [HTML/Ejercicio 20.html](https://github.com/jose-dp-94/Ejercicios
 Ejercicio 21 | [HTML/Ejercicio 21.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2021.html)
 Ejercicio 22 | [HTML/Ejercicio 22/index.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2022/index.html)
 Ejercicio 23 | [HTML/Ejercicio 23.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2023.html)
+Ejercicio 24 | [HTML/Ejercicio 24.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2024.html)
