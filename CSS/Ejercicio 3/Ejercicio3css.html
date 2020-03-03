@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			h3 {
+				text-align: center;
+			}
+			
+			#nav {
+				border: 1px solid black;
+				height: 300px;
+			}
+			
+			#content {
+				border: 1px solid black;
+				float: left;
+				width: 70%;
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<h3>Curriculum Vitae</h3>
+			<h3 id="header"></h3>
+			<p id="p1">Wellcome to my CV</p>
+		</div>
+		<div id="nav">
+			<button onclick="Data()">Personal data</button><br/>
+			<button onclick="Education()">Education</button><br/>
+			<button onclick="Experience()">Personal experience</button><br/>
+		</div>
+		<script>
+			function Data() {
+				document.getElementById("header").innerHTML="Personal data";
+				document.getElementById("p1").innerHTML="Name: Azamat<br/>Surname: Azamat<br/>Date of birth: 30.07.74<br/>Place of birth: Bishkek, Kyrgysztan";
+			}
+			
+			function Education() {
+				document.getElementById("header").innerHTML="Education";
+				document.getElementById("p1").innerHTML="2005-2009&nbsp&nbsp&nbsp&nbsp&nbspComputer Engineering in the Technical University of Kyrgysztan in Bishkek<br/>2001-2005&nbsp&nbsp&nbsp&nbsp&nbspHigh School 'Manas' in Osh<br/>1995-2001&nbsp&nbsp&nbsp&nbsp&nbspPrimary school";
+			}
+			
+			function Experience() {
+				document.getElementById("header").innerHTML="Personal experience";
+				document.getElementById("p1").innerHTML="2007-2009&nbsp&nbsp&nbsp&nbsp&nbspComputer teacher in High School in Bishkek<br/>2005-2007&nbsp&nbsp&nbsp&nbsp&nbspSecretary of Department of Software in Technical University of Kyrgysztan in Bishkek";
+			}
+		</script>
+	</body>
+</html>
