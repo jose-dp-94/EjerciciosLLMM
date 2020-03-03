@@ -1,5 +1,5 @@
 # EjerciciosLLMM
-Ejercicios de lenguajes de marcas
+Ejercicios HTML
 
 Ejercicios | Enlaces
 --------- | ----------
