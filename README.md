@@ -1,5 +1,4 @@
-# EjerciciosLLMM
-EJERCICIOS HTML
+# Ejercicios HTML
 
 Ejercicios | Enlaces
 --------- | ----------
@@ -29,9 +28,8 @@ Ejercicio 24 | [HTML/Ejercicio 24.html](https://github.com/jose-dp-94/Ejercicios
 Ejercicio 25 | [HTML/Ejercicio 25.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2025.html)
 Ejercicio 26 | [HTML/Ejercicio 26/Ejercicio 26.html](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/HTML/Ejercicio%2026/Ejercicio%2026.html)
 
-# EjerciciosCSS
-EJERCICIOS CSS
+# Ejercicios CSS
 
 Ejercicios | Enlaces
 ----------- | ----------
-Ejercicio 1 | 
+Ejercicio 1 | (https://github.com/jose-dp-94/EjerciciosLLMM/tree/master/CSS/Ejercicio%201)
