@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda[
+<!ELEMENT agenda (contacto*)>
+<!ELEMENT contacto (nombre, direccion, tlf, email, edad, estado_civil)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT estado_civil (#PCDATA)>
+]>
+
+<agenda>
+<contacto>
+<nombre>Pedro</nombre>
+<direccion>Olmo</direccion>
+<tlf>989888888</tlf>
+<email>pedro@gmail.com</email>
+<edad>22</edad>
+<estado_civil>soltero</estado_civil>
+</contacto>
+</agenda>
