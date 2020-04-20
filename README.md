@@ -42,4 +42,9 @@ Ejercicio 5 | [Ejercicio 5](https://github.com/jose-dp-94/EjerciciosLLMM/tree/ma
 
 Ejercicios | Enlaces
 -----------| ----------
-Ejercicio 1 | 
+Ejercicio 1 | [Ejercicio 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%201)
+Ejercicio 2 | [Ejercicio 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%202)
+Ejercicio 3 | [Ejercicio 3](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%203)
+Ejercicio 4 | [Ejercicio 4](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%204)
+Ejercicio 5 | [Ejercicio 5](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%205)
+
