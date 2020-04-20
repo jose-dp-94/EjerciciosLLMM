@@ -12,11 +12,11 @@
 
 <agenda>
 <contacto>
-<nombre>Pedro</nombre>
-<direccion>Olmo</direccion>
-<tlf>989888888</tlf>
-<email>pedro@gmail.com</email>
-<edad>22</edad>
+<nombre>Pepe</nombre>
+<direccion>perez</direccion>
+<tlf>989874646</tlf>
+<email>pepe@gmail.com</email>
+<edad>25</edad>
 <estado_civil>soltero</estado_civil>
 </contacto>
 </agenda>
