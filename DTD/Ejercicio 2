@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+<!ELEMENT agenda (contacto*)>
+<!ELEMENT contacto (nombres, dirección, tlf, emails, edad, estado, empresa)>
+<!ELEMENT nombres (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dirección (calle, numero, codigo_postal, ciudad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT emails (email*)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT estado (estado_civil)>
+<!ELEMENT estado_civil (#PCDATA)>
+<!ELEMENT empresa (nombre_empresa, url_empresa)>
+<!ELEMENT nombre_empresa (#PCDATA)>
+<!ELEMENT url_empresa (#PCDATA)>
+]>
+<agenda>
+<contacto>
+<nombres>
+    <nombre>jose diego</nombre>
+    <apellidos>pulido carrasco</apellidos>
+</nombres>
+<dirección>
+    <calle>union europea</calle>
+    <numero>6</numero>
+    <codigo_postal>21002</codigo_postal>
+    <ciudad>Huelva</ciudad>
+</dirección>
+    <tlf>12345678</tlf>
+<emails>
+    <email>jose.pulido2205@gmail.com</email>
+</emails>
+    <edad>25</edad>
+<estado>
+    <estado_civil>soltero</estado_civil>
+</estado>
+<empresa>
+    <nombre_empresa>autorecambios pulido</nombre_empresa>
+    <url_empresa> www.autorecambiospulido.com </url_empresa>
+</empresa>
+</contacto>
+</agenda>
