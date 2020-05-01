@@ -48,3 +48,8 @@ Ejercicio 3 | [Ejercicio 3](https://github.com/jose-dp-94/EjerciciosLLMM/blob/ma
 Ejercicio 4 | [Ejercicio 4](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%204)
 Ejercicio 5 | [Ejercicio 5](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/DTD/Ejercicio%205)
 
+# Ejercicios JavaScript
+
+Ejercicios | Enlaces
+-----------|----------
+Ejercicio 1 | 
