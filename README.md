@@ -54,3 +54,10 @@ Ejercicios | Enlaces
 -----------|----------
 Ejercicio 1 | [Ejercicio 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%201)
 Ejercicio 2 | [Ejercicio 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%202)
+
+# Ejercicios XML DOM
+
+Ejercicios | Enlaces
+-----------|----------
+Ejercicio 1 (catalog cd) |
+Ejercio 2 (books) | 
