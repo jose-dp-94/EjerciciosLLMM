@@ -61,3 +61,11 @@ Ejercicios | Enlaces
 -----------|----------
 xml dom 1 (books) |
 xml dom 2 (catalog cd) | 
+
+# Ejercicios AJAX y JSON
+------------|-----------
+Ejercicio ajax 1 |
+Ejercicio ajax 2 |
+Ejercicio json 3 |
+Ejercicio json 4 |
+Ejercicio json 5 |
