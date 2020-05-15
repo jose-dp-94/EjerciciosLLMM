@@ -59,7 +59,7 @@ Ejercicio 2 | [Ejercicio 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/ma
 
 Ejercicios | Enlaces
 -----------|----------
-xml dom 1 (books) | [dom 1]()
+xml dom 1 (books) | [dom 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XML%20DOM/xml%20dom%201)
 xml dom 2 (catalog cd) | 
 
 # Ejercicios AJAX y JSON
