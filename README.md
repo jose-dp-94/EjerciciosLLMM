@@ -52,8 +52,8 @@ Ejercicio 5 | [Ejercicio 5](https://github.com/jose-dp-94/EjerciciosLLMM/blob/ma
 
 Ejercicios | Enlaces
 -----------|----------
-Ejercicio 1 | [Ejercicio 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%201)
-Ejercicio 2 | [Ejercicio 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%202)
+Ejercicio 1 (Basics) | [Basics](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%201)
+Ejercicio 2 (Showing messages) | [Showing messages](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/JavaScript/Ejercicio%202)
 
 # Ejercicios XML DOM
 
