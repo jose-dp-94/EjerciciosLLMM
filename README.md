@@ -59,5 +59,5 @@ Ejercicio 2 | [Ejercicio 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/ma
 
 Ejercicios | Enlaces
 -----------|----------
-Ejercicio 1 (catalog cd) |
-Ejercio 2 (books) | 
+xml dom 1 (catalog cd) |
+xml dom 2 (books) | 
