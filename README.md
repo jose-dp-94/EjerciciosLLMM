@@ -70,3 +70,14 @@ Ejercicio ajax 2 |
 Ejercicio json 3 |
 Ejercicio json 4 |
 Ejercicio json 5 |
+
+# Ejercicio RSS
+Ejercicios | Enlaces
+-----------|--------
+Ejercicio rss |
+
+# Ejercicios XPath
+Ejercicios | Enlaces
+-----------|--------
+Ejercicio 1 |
+Ejercicio 2 | 
