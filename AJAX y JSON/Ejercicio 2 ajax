@@ -1,46 +1,45 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <style>
-tabla, th, td {
-  borde: 1px negro sólido;
-  colapso del borde: colapso;
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
 }
-th, td {
-  acolchado: 5px;
+th,td {
+  padding: 5px;
 }
 </style>
-<cuerpo>
+<body>
 
-<h2> El objeto XMLHttpRequest </h2>
+<h2>XMLHttpRequest</h2>
 
-<button type = "button" onclick = "loadDoc ()"> colección de CD </button>
-<br> <br>
-<p id = "demo"> </p>
+<button type="button" onclick="loadDoc()">CD collection</button>
+<br><br>
+<p id="demo"></p>
 
 <script>
-función loadDoc () {
-  var xhttp = nuevo XMLHttpRequest ();
-  xhttp.onreadystatechange = function () {
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      myFunction (esto);
+      myFunction(this);
     }
   };
-  xhttp.open ("GET", "localidad_21002.xml", verdadero);
-  xhttp.send ();
+  xhttp.open("GET", "localidad_21002.xml", true);
+  xhttp.send();
 }
-function myFunction (xml) {
+function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var p = "";
-  var x = xmlDoc.getElementsByTagName ("temperatura");
-    p + = "";
-    x [0] .getElementsByTagName ("maxima") [0] .childNodes [0] .nodeValue +
+  var p=" ";
+  var x = xmlDoc.getElementsByTagName("temperatura");
+    p += " ";
+    x[0].getElementsByTagName("maxima")[0].childNodes[0].nodeValue +
     "<br>" +
-    x [0] .getElementsByTagName ("mínimos") [0] .childNodes [0] .nodeValue +
+    x[0].getElementsByTagName("minima")[0].childNodes[0].nodeValue +
     "<br>";
-  document.getElementById ("demo"). innerHTML = p;
+  document.getElementById("demo").innerHTML = p;
 }
 </script>
-
 </body>
 </html>
