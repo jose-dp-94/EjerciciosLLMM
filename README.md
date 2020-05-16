@@ -65,7 +65,7 @@ xml dom 2 (catalog cd) |
 # Ejercicios AJAX y JSON
 Ejercicios  | Enlaces
 ------------|-----------
-Ejercicio ajax 1 |
+Ejercicio ajax 1 | [Ajax 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/AJAX%20y%20JSON/Ejercicio%201%20ajax)
 Ejercicio ajax 2 | [Ajax 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/AJAX%20y%20JSON/Ejercicio%202%20ajax)
 Ejercicio json 3 |
 Ejercicio json 4 |
