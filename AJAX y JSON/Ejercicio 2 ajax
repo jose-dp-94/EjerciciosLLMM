@@ -13,7 +13,7 @@ th,td {
 
 <h2>XMLHttpRequest</h2>
 
-<button type="button" onclick="loadDoc()">CD collection</button>
+<button type="button" onclick="loadDoc()">Climatologia Huelva</button>
 <br><br>
 <p id="demo"></p>
 
