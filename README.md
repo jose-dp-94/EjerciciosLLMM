@@ -74,7 +74,7 @@ Ejercicio json 5 |
 # Ejercicio RSS
 Ejercicios | Enlaces
 -----------|--------
-Ejercicio rss |
+Ejercicio rss | [formula1 rss](https://github.com/jose-dp-94/EjerciciosLLMM/tree/master/RSS)
 
 # Ejercicios XPath
 Ejercicios | Enlaces
