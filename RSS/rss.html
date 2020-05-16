@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>RSS JOSE DIEGO</h2>
+
+<button type="button" onclick="loadDoc()">formula1</button>
+<br><br>
+<p id="demo"></p>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "rss_formula1.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var p="";
+  var x = xmlDoc.getElementsByTagName("item");
+  for (i = 0; i <x.length; i++) { 
+    p += "" +
+    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+    "<br>" +
+    x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue +
+    "<br>";
+  }
+  document.getElementById("demo").innerHTML = p;
+}
+</script>
+
+</body>
