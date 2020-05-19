@@ -1,1 +1,25 @@
-.
+1. Muestra la longitud del array
+
+<h2>MOSTRAR LA LONGITUD DEL ARCHIVO</h2>
+
+<p id = "object"></p>
+<p id = "demo"></p>
+
+<script>
+var myObj, i, x= "";
+myObj = {
+cars: [ "Fiat", "BMW", "Ford" ]
+name: "Jose",
+age: 26,
+};
+
+document.getElementById("object").innerHTML = myObj.cars + ", " + myObj.name + " - " + myObj.age.lenght;
+
+for ( i = 0; i < myObj.cars.lenght; i++ )
+	x += myObj.cars[i] + "<br>";
+
+document.getElementById("demo").innerHTML = x;
+
+</script>
+2. Muestra los elementos usando una tabla.
+
