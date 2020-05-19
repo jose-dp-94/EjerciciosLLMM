@@ -1,1 +1,23 @@
-.
+<h2>Use the XMLHttpRequest to get the content of a file.</h2>
+
+<p id="demo"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    var t = "<table>";
+    t += "<tr><td>" + "name </td><td>" + myObj.name + "</td></tr>";
+    t += "<tr><td>" + "age </td><td>" + myObj.age + "</td></tr>";
+    for(i in myObj.pets) {
+       t += "<tr><td>" + "pet" + i + "</td><td>"+ myObj.pets[i].animal + ":";
+       t += myObj.pets[i].name + "</td></tr>";
+      }
+      t += "</table>"
+      document.getElementById("demo").innerHTML = t;
+  }
+};
+xmlhttp.open("GET", "json_demo.txt", true);
+xmlhttp.send();
+</script>
