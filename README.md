@@ -86,5 +86,5 @@ Ejercicio XPath 2 xhtml (universidad)|
 # Ejercicio XSLT
 Ejercicios | Enlaces
 -----------|--------
-Ejercicio 1 xml (universidad)| 
-Ejercicio 1 xslt (universidad)|
+Ejercicio XSLT 1 xml (universidad)| 
+Ejercicio XSLT 2 (universidad)|
