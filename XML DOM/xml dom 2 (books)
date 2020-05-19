@@ -1,1 +1,186 @@
-.
+1. Título del primer libro.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("title");
+      {
+      txt = txt + x[0].childNodes[0].nodeValue + "<br>";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+2. Todos los títulos.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("title");
+     for (i = 0; i < x.length; i++) {
+      txt = txt + x[i].childNodes[0].nodeValue + "<br>";
+    } 
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+3. Número de atributos del cuarto libro.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("book");
+     txt = txt + x[3].attributes.lenght;
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+4. Valor de los atributos del cuarto libro.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("book");
+     txt = txt + x[3].attributes[0].nodeValue;
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+5. Número de autores del tercer libro.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("book");
+     txt = txt + x[2].getElementsByTagName('author').length;
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+6. Autores del tercer libro.
+
+<script>
+var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    xmlDoc = this.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("book");
+     txt = txt + x[2].getElementsByTagName('author');
+    document.getElementById("demo").innerHTML = txt;
+  }
+};
+xhttp.open("GET", "/xml/books.xml", true);
+xhttp.send();
+</script>
+
+7. Muestra una tabla que muestre el título, primer autor, precio y año.
+
+<button type="button" onclick="loadDoc()">TITULO,PRIMER AUTOR, PRECIO Y AÑO</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "/xml/books.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Title</th><th>Author</th><th>Price</th><th>Year</th></tr>";
+  var x = xmlDoc.getElementsByTagName("book");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[0].getElementsByTagName("author")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+8. Muestra una tabla que muestre el título, autores, precio y año.
+
+
+<button type="button" onclick="loadDoc()">TITULO, AUTOR, PRECIO Y AÑO</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "/xml/books.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Title</th><th>Author</th><th>Price</th><th>Year</th></tr>";
+  var x = xmlDoc.getElementsByTagName("book");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
