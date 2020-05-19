@@ -80,5 +80,11 @@ Ejercicio rss | [formula1 rss](https://github.com/jose-dp-94/EjerciciosLLMM/tree
 # Ejercicios XPath
 Ejercicios | Enlaces
 -----------|--------
-Ejercicio 1 |
-Ejercicio 2 | 
+Ejercicio 1 xml (universidad)|
+Ejercicio 2 xhtml (universidad)| 
+
+#Ejercicio XSLT
+Ejercicios | Enlaces
+-----------|--------
+Ejercicio 1 xml (universidad)| 
+Ejercicio 1 xslt (universidad)|
