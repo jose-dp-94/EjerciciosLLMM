@@ -83,7 +83,7 @@ Ejercicios | Enlaces
 Ejercicio 1 xml (universidad)|
 Ejercicio 2 xhtml (universidad)| 
 
-#Ejercicio XSLT
+# Ejercicio XSLT
 Ejercicios | Enlaces
 -----------|--------
 Ejercicio 1 xml (universidad)| 
