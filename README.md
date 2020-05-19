@@ -61,7 +61,7 @@ Ejercicios | Enlaces
 -----------|----------
 xml dom 1 (books) | [dom 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XML%20DOM/xml%20dom%201)
 xml dom 2 (catalog cd)| [catalog cd](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XML%20DOM/xml%20dom%202%20(catalog%20cd))
-xml dom 2 (books)| [books]()
+xml dom 2 (books)| [books](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XML%20DOM/xml%20dom%202%20(books))
 
 # Ejercicios AJAX y JSON
 Ejercicios  | Enlaces
