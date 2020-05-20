@@ -1,0 +1,34 @@
+1.Select all elements “nombre”.
+
+2.Select degree names offered by the University.
+
+3.Select all the student’s names.
+
+4.Select all the subject’s names.
+
+5.Select all id attributes.
+
+6.Select the id attribute of the degrees.
+
+7.Select the first student.
+
+8.Select the last student.
+
+9.The two first students.
+
+10.Select the subject with id=a01.
+
+11.Select the degrees’ subjects whose id is c01.
+
+12.Degrees with over 200 credits.
+
+13.Subjects with over 4 theoric credits.
+
+14.Name and centre of the degrees.
+
+15.Select with the axe child all nodes which are child of “carreras”
+
+
+
+
+
