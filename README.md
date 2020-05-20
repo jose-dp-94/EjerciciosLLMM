@@ -83,8 +83,8 @@ Ejercicios | Enlaces
 -----------|--------
 Ejercicio consultas XPath 3 (universidad)| [XPath 3](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XPath/Ejercicio%20consultas%20XPath%203%20(universidad))
 Archivo xml (universidad)| [xml universidad](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XPath/Archivo%20xml%20(universidad))
-Ejercicio XPath 4 | [consulta xampp universidad]()
-Imagen XPath 4 | [Imagen xampp universidad]()
+Ejercicio XPath 4 XHTML (universidad) | [XHTML universidad](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XPath/Ejercicio%20XPath%204%20XHTML%20(universidad))
+Imagen XPath 4 XHTML (universidad) | [Imagen XPath 4 xammp universidad]()
 
 # Ejercicio XSLT
 Ejercicios | Enlaces
