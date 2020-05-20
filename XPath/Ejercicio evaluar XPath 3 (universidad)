@@ -1,33 +1,47 @@
 1.Select all elements “nombre”.
+//nombre
 
 2.Select degree names offered by the University.
+/universidad/carreras/carrera/nombre
 
 3.Select all the student’s names.
+/universidad/alumnos/alumno/nombre
 
 4.Select all the subject’s names.
+/universidad/asignaturas/asignatura/nombre
 
 5.Select all id attributes.
+//@id
 
 6.Select the id attribute of the degrees.
+/universidad/carreras/carrera/@id
 
 7.Select the first student.
+/universidad/alumnos/alumno[1]
 
 8.Select the last student.
+/universidad/alumnos/alumno[last()]
 
 9.The two first students.
+//alumno[1]//alumno[2]
 
 10.Select the subject with id=a01.
+//@id[.="a01"]
 
 11.Select the degrees’ subjects whose id is c01.
+//carrera[@id="c01"]
 
 12.Degrees with over 200 credits.
+//creditos[.>200]
 
 13.Subjects with over 4 theoric credits.
+//creditos_teoricos[.>4]
 
 14.Name and centre of the degrees.
+/universidad/carreras/carrera/nombre|//centro
 
 15.Select with the axe child all nodes which are child of “carreras”
-
+//carreras/node()
 
 
 
