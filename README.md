@@ -89,8 +89,8 @@ Imagen XPath 4 XHTML (universidad) | [Imagen XPath 4 xampp universidad](https://
 # Ejercicio XSLT
 Ejercicios | Enlaces
 -----------|--------
-Ejercicio XSLT 1 (universidad)| 
-Ejercicio XSLT 2 (universidad)|
-Ejercicio XSLT 3 (universidad)|
-Ejercicio XSLT 4 (universidad)|
-Ejercicio XSLT 5 (universidad)|
+Ejercicio XSLT 1 (universidad)| [Apartado 1]()
+Ejercicio XSLT 2 (universidad)| [Apartado 2]()
+Ejercicio XSLT 3 (universidad)| [Apartado 3]()
+Ejercicio XSLT 4 (universidad)| [Apartado 4]()
+Ejercicio XSLT 5 (universidad)| [Apartado 5]()
