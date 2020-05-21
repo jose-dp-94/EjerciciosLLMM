@@ -1,1 +1,26 @@
-.
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+  <html>
+  <body>
+    <h1>Lista de asignaturas/Jose Diego</h1>
+    <table border="1">
+      <tr bgcolor="grey">
+        <th>Asignatura</th>
+        <th>Creditos teóricos</th>
+        <th>Creditos prácticos</th>
+      </tr>
+      <xsl:for-each select="universidad/asignaturas/asignatura">
+      <tr>
+        <td><xsl:value-of select="nombre" /></td>
+        <td><xsl:value-of select="creditos_teoricos" /></td>
+        <td><xsl:value-of select="creditos_practicos" /></td>
+      </tr>
+      </xsl:for-each>
+    </table>
+  </body>
+  </html>
+</xsl:template>
+</xsl:stylesheet>
+
