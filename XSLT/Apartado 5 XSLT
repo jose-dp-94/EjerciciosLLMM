@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
     <h1>Recursos de titulación/Jose Diego</h1>
     <table border="1">
-      <tr bgcolor="grey">
+      <tr bgcolor="yellow">
         <th>Titulación</th>
         <th>Creditos</th>
       </tr>
