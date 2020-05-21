@@ -86,7 +86,7 @@ Archivo xml (universidad)| [xml universidad](https://github.com/jose-dp-94/Ejerc
 Ejercicio XPath 4 XHTML (universidad) | [XHTML universidad](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XPath/Ejercicio%20XPath%204%20XHTML%20(universidad))
 Imagen XPath 4 XHTML (universidad) | [Imagen XPath 4 xampp universidad](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XPath/Imagen%20xampp%20XPath%204.PNG)
 
-# Ejercicio XSLT
+# Ejercicios XSLT
 Ejercicios | Enlaces
 -----------|--------
 Ejercicio XSLT 1 (universidad)| [Apartado 1]()
