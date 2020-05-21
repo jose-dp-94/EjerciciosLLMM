@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
     <h1>Lista de carreras/Jose Diego</h1>
     <table border="1">
-      <tr bgcolor="grey">
+      <tr bgcolor="yellow">
         <th>Título</th>
         <th>Centro</th>
       </tr>
