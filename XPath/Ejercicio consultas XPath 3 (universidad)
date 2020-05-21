@@ -40,7 +40,7 @@
 14.Name and centre of the degrees.
 /universidad/carreras/carrera/nombre|//centro
 
-15.Select with the axe child all nodes which are child of “carreras”
+15.Select all nodes which are child of “carreras”
 //carreras/node()
 
 
