@@ -89,8 +89,14 @@ Imagen XPath 4 XHTML (universidad) | [Imagen XPath 4 xampp universidad](https://
 # Ejercicios XSLT
 Ejercicios | Enlaces
 -----------|--------
-Ejercicio XSLT 1 (universidad)| [Apartado 1]()
-Ejercicio XSLT 2 (universidad)| [Apartado 2]()
-Ejercicio XSLT 3 (universidad)| [Apartado 3]()
-Ejercicio XSLT 4 (universidad)| [Apartado 4]()
-Ejercicio XSLT 5 (universidad)| [Apartado 5]()
+Ejercicio XSLT 1 (universidad)| [Apartado 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Apartado%201%20XSLT)
+Ejercicio XSLT 2 (universidad)| [Apartado 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Apartado%202%20XSLT)
+Ejercicio XSLT 3 (universidad)| [Apartado 3](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Apartado%203%20XSLT)
+Ejercicio XSLT 4 (universidad)| [Apartado 4](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Apartado%204%20XSLT)
+Ejercicio XSLT 5 (universidad)| [Apartado 5](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Apartado%205%20XSLT)
+Resultado XSLT 1 | [Imagen Apartado 1](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Resultado%20Apartado%201.PNG)
+Resultado XSLT 2 | [Imagen Apartado 2](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Resultado%20Apartado%202.PNG)
+Resultado XSLT 3 | [Imagen Apartado 3](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Resultado%20Apartado%203.PNG)
+Resultado XSLT 4 | [Imagen Apartado 4](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Resultado%20Apartado%204.PNG)
+Resultado XSLT 5 | [Imagen Apartado 5](https://github.com/jose-dp-94/EjerciciosLLMM/blob/master/XSLT/Resultado%20Apartado%204.PNG)
+
