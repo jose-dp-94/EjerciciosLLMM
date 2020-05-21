@@ -91,3 +91,6 @@ Ejercicios | Enlaces
 -----------|--------
 Ejercicio XSLT 1 (universidad)| 
 Ejercicio XSLT 2 (universidad)|
+Ejercicio XSLT 3 (universidad)|
+Ejercicio XSLT 4 (universidad)|
+Ejercicio XSLT 5 (universidad)|
