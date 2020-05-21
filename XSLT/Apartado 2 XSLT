@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
     <h1>Tabla de alumnos/Jose Diego</h1>
     <table border="1">
-      <tr bgcolor="grey">
+      <tr bgcolor="yellow">
         <th>Apellido</th>
         <th>Nombre</th>
       </tr>
